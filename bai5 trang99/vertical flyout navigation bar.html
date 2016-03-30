@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bài 5 trang 99</title>
+</head>
+<style>
+	#menu ul
+	{
+	list-style-type: none;
+	font-family: Arial, 
+	font-size: 12px;
+	padding: 0;
+	float:left;
+	}
+	
+	#menu ul li
+	{
+	position:relative;
+	}
+	 
+	#menu ul a
+	{
+	text-decoration:none;
+	color:green;
+	display:block;
+	font-weight:bold;
+	padding:10px 30px;
+	background:#000;
+	list-style-type:none;
+	}
+	 
+	#menu ul a:hover
+	{
+	background:#aaa;
+	}
+	 
+	#menu li ul a
+	{
+	position:relative;
+	background:yellow;
+	float:left;
+	margin-left:70px;
+	}
+	 
+	#menu li ul
+	{
+	position:absolute;
+	display:none;
+	width:200px;
+	top:0px;
+	left: 69px;
+	}
+	 
+	#menu li:hover ul{
+	display:block;
+	}
+</style>
+<body>
+<div id="menu">
+<ul>
+	<li>
+	  <a href="#">HOME</a>
+	</li>
+	<li>
+	  <a href="#">NEWS</a>
+		<ul>
+			<li><a href="#">ITEM1</a></li>
+			<li><a href="#">ITEM2</a></li>
+			<li><a href="#">ITEM3</a></li>
+			<li><a href="#">ITEM4</a></li></br>
+		</ul>
+	</li>
+	<li>
+	  <a href="#">CONTACT</a>
+	</li>
+	<li>
+      <a href="#">ABOUT</a>
+	</li>					
+</ul>
+</div>
+</body>
+</html>

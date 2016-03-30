@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bàitap menu</title>
+</head>
+<style>
+#menu ul{
+list-style-type: none;
+font-family: Arial, 
+font-size: 11px;
+padding: 0px;
+
+
+}
+ 
+#menu ul li{
+float:left;
+position:relative;
+border:1px solid;
+text-align;center;
+}
+ 
+#menu ul a{
+text-decoration:none;
+color:red;
+display:block;
+font-weight:bold;
+padding:9px 30px;
+background:yellow;
+}
+ 
+#menu ul a:hover{
+background:green;
+}
+ 
+// menu con
+#menu li ul a{
+position:relative;
+background:red;
+}
+ 
+#menu li ul{
+position:absolute;
+display:none;
+width:200px;
+
+}
+ 
+#menu li:hover ul{
+display:block;
+}
+</style>
+<body>
+<div id="menu">
+<ul>
+	<li>
+	  <a href="#">HOME</a>
+	</li>
+	<li>
+	  <a href="#">NEWS</a>
+	  <ul>
+	  <li><a href="#">ITEM1</a></li>
+	  <li><a href="#">ITEM2</a></li>
+	  <li><a href="#">ITEM3</a></li>
+	  <li><a href="#">ITEM4</a></li></br>
+	  </ul>
+	</li>
+	<li>
+	  <a href="#">CONTACT</a>
+	</li>
+	<li>
+      <a href="#">ABOUT</a>
+	</li>					
+</ul>
+</div>
+</body>
+</html>
